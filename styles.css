@@ -79,3 +79,39 @@ textarea {
   width: 80px;
   background-color: yellow;
 }
+
+#mastercontainer {
+  width: 1200px;
+}
+
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  opacity: 0.8;
+  width: 100%;
+  top: 0px;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Roboto Slab", serif;
+  margin-left: 50px;
+}
+
+.header img {
+  width: 6%;
+}
+
+.section1 {
+  display: flex;
+}
+
+.section1 img {
+  width: 100%;
+}
+
