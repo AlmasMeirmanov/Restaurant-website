@@ -7,6 +7,79 @@ html {
   box-sizing: inherit;
 }
 
+.footer {
+  height: 300px;
+  display: flex;
+  background-color: black;
+  margin: auto;
+}
+.grid {
+  display: flex;
+  width: 1200px;
+  justify-content: space-between;
+  margin-left: 200px;
+}
+.box {
+  margin-top: 80px;
+  width: 300px;
+}
+h4 {
+  color: white;
+}
+.contact {
+  display: flex;
+  font-size: 20px;
+}
+.barlv {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+.img {
+  display: flex;
+  justify-content: space-evenly;
+}
+.a {
+  width: 100px;
+  height: 100px;
+}
+b {
+  width: 100px;
+  height: 100px;
+}
+c {
+  width: 100px;
+  height: 100px;
+}
+d {
+  width: 100px;
+  height: 100px;
+}
+e {
+  width: 100px;
+  height: 100px;
+}
+f {
+  width: 100px;
+  height: 100px;
+}
+.logo {
+  width: 100%;
+}
+input {
+  width: 250px;
+  height: 25px;
+  margin-bottom: 10px;
+}
+textarea {
+  width: 250px;
+  height: 100px;
+}
+.button {
+  width: 80px;
+  background-color: yellow;
+}
+
 #mastercontainer {
   width: 1200px;
 }
@@ -41,3 +114,4 @@ html {
 .section1 img {
   width: 100%;
 }
+
