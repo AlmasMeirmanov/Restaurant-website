@@ -57,3 +57,27 @@ $(document).ready(function() {
     $(`#image${prevIndex}`).addClass("current opacity")
   })
 })
+$(document).ready(function() {
+  $.get("https://obscure-tundra-54269.herokuapp.com/bar-food", function(data) {
+    var html = data.appetizers.map(function(item) {
+      return `<p>${item.name}</p>
+      <p>${item.price}</p>
+      <p>${item.description}</p>`
+    })
+    document.querySelector(".appetizer").innerHTML = html
+
+    var html = data.entrees.map(function(item) {
+      return `<p>${item.name}</p>
+      <p>${item.price}</p>
+      <p>${item.description}</p>`
+    })
+    document.querySelector(".entrees").innerHTML = html
+
+    var html = data.desserts.map(function(item) {
+      return `<p>${item.name}</p>
+      <p>${item.price}</p>
+      <p>${item.description}</p>`
+    })
+    document.querySelector(".dessert").innerHTML = html
+  })
+})
